@@ -20,8 +20,7 @@ def bonus
    }
   }
 
-epic_tragedy [:montague][:hero][:status].each do |stat|
-  :stat = "dead"
+epic_tragedy [:montague][:hero][:status] = "dead"
 end
   #code your solution here:
 
